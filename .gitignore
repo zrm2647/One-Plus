@@ -1,9 +1,9 @@
-/One-Plus/[Ll]ibrary/
-/One-Plus/[Tt]emp/
-/One-Plus/[Oo]bj/
-/One-Plus/[Bb]uild/
-/One-Plus/[Bb]uilds/
-/One-Plus/Assets/AssetStoreTools*
+/One\ Plus/[Ll]ibrary/
+/One\ Plus/[Tt]emp/
+/One\ Plus/[Oo]bj/
+/One\ Plus/[Bb]uild/
+/One\ Plus/[Bb]uilds/
+/One\ Plus/Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
 /.vs/
