@@ -489,7 +489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instructions: {fileID: 1693908101}
   play: {fileID: 1771056552}
-  quit: {fileID: 0}
+  quit: {fileID: 27742823}
   options: {fileID: 2027592334}
 --- !u!114 &1539821179
 MonoBehaviour:
