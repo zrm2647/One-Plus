@@ -6,6 +6,7 @@ public class PlayerControl : MonoBehaviour
     private float movementSpeed;
     private bool hasKey;
     private bool facingRight;
+
     private Rigidbody2D rigidbody;
     private Animator animator;
 
@@ -52,10 +53,10 @@ public class PlayerControl : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "spike")
+        if(collision.gameObject.tag == "enemy") // for now, specify enemy tag
         {
             //Destroy(this.gameObject);
-            transform.position = new Vector3(-5f, -2f, 0);
+            transform.position = new Vector3(-5f, -2f, 0); // reset position
         }
         if(collision.gameObject.tag == "key")
         {
